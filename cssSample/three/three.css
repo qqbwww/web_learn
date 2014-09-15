@@ -1,0 +1,55 @@
+* {margin:0; padding:0;}
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+header {
+    text-align: center;
+    background: #f00;
+}
+
+nav {
+    width:150px;
+    float:left;
+    background: #dcd9c0;
+}
+
+nav li {
+    /* 去掉列表项目符号 */
+    list-style-type: none;
+}
+
+article {
+    width: 600px;
+    float:left;
+    background:#ffed53;
+    /*padding:10px 20px;*/
+    /*box-sizing:border-box; *//* CSS3的特定 */
+}
+
+article .inner {
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid red;
+}
+
+aside {
+    width:210px;
+    float:left;
+    background:#3f7ccf;
+}
+
+aside .inner {
+    padding:10px;
+}
+
+
+
+footer {
+    text-align: center;
+    color: white;
+    background: #000;
+    clear:both;
+}
