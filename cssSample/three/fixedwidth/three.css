@@ -3,6 +3,7 @@
     width: 960px;
     margin: 0 auto;
     border: 1px solid;
+    box-sizing:border-box;/** 需要腻子js来处理 IE6和IE7 */
 }
 
 header {
